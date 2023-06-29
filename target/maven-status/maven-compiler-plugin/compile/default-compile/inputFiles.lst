@@ -48,6 +48,7 @@ F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\po
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Controller\ExperienciaController.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Repository\IPersonaRepository.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Controller\DatosWebController.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Dto\DtoPersona.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Dto\NuevoUsuario.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Entity\Habilidades.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Interface\IPersonaService.java

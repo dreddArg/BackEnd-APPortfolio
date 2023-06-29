@@ -32,6 +32,7 @@ com\portfolio\BackEnd\Controller\EducacionController.class
 com\portfolio\BackEnd\Repository\IRedesSocialesRepository.class
 com\portfolio\BackEnd\Security\Dto\LoginUsuario.class
 com\portfolio\BackEnd\Security\jwt\JwtEntryPoint.class
+com\portfolio\BackEnd\Dto\DtoPersona.class
 com\portfolio\BackEnd\Dto\DtoHabilidades.class
 com\portfolio\BackEnd\Interface\IRedesSocialesService.class
 com\portfolio\BackEnd\Dto\DtoExperiencia.class
