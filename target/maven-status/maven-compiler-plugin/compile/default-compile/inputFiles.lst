@@ -13,6 +13,7 @@ F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\po
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Service\ImpExperienciaService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Controller\PersonaController.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Service\UsuarioService.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Entity\Proyectos.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Repository\IEducacionRepository.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Repository\IRedesSocialesRepository.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Entity\UsuarioPrincipal.java
@@ -21,7 +22,9 @@ F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\po
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Interface\IEducacionService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Repository\IHabilidadesRepository.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Repository\IUsuarioRepository.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Dto\DtoProyectos.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Dto\DtoEducacion.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Repository\IProyectosRepository.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Service\ImpRedesSocialesService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Entity\Persona.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Service\UserDetailsImpl.java
@@ -38,11 +41,13 @@ F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\po
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Service\ImpHabilidadesService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Interface\IRedesSocialesService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Entity\Usuario.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Service\ImpProyectosService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Entity\Rol.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Service\ImpEducacionService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Repository\IExperienciaRepository.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Dto\DtoHabilidades.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\MainSecurity.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Controller\ProyectosController.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Interface\IHabilidadesService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Controller\EducacionController.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Controller\ExperienciaController.java
@@ -51,4 +56,5 @@ F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\po
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Dto\DtoPersona.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Security\Dto\NuevoUsuario.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Entity\Habilidades.java
+F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Interface\IProyectosService.java
 F:\Documents\ArgentinaPrograma\Proyecto\BackEnd-APPortfolio\src\main\java\com\portfolio\BackEnd\Interface\IPersonaService.java

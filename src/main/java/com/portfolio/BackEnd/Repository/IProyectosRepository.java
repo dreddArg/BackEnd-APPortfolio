@@ -8,8 +8,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface IProyectosRepository extends JpaRepository<Proyectos, Integer>{
     
-    public Optional<Proyectos> findByNombrePro(String nombrePro);
+    public Optional<Proyectos> findByNombreProyecto(String nombreProyecto);
     
-    public boolean existsByNombrePro(String nombrePro);
+    public boolean existsByNombreProyecto(String nombreProyecto);
     
 }

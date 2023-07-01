@@ -27,8 +27,11 @@ com\portfolio\BackEnd\Controller\DatosWebController.class
 com\portfolio\BackEnd\Security\Controller\Mensaje.class
 com\portfolio\BackEnd\Security\Entity\Usuario.class
 com\portfolio\BackEnd\Security\Enums\RolNombre.class
+com\portfolio\BackEnd\Entity\Proyectos.class
+com\portfolio\BackEnd\Service\ImpProyectosService.class
 com\portfolio\BackEnd\Repository\IHabilidadesRepository.class
 com\portfolio\BackEnd\Controller\EducacionController.class
+com\portfolio\BackEnd\Interface\IProyectosService.class
 com\portfolio\BackEnd\Repository\IRedesSocialesRepository.class
 com\portfolio\BackEnd\Security\Dto\LoginUsuario.class
 com\portfolio\BackEnd\Security\jwt\JwtEntryPoint.class
@@ -43,10 +46,13 @@ com\portfolio\BackEnd\Service\ImpDatosWebService.class
 com\portfolio\BackEnd\Controller\PersonaController.class
 com\portfolio\BackEnd\Security\Repository\IUsuarioRepository.class
 com\portfolio\BackEnd\Interface\IEducacionService.class
+com\portfolio\BackEnd\Controller\ProyectosController.class
 com\portfolio\BackEnd\Security\Service\UsuarioService.class
 com\portfolio\BackEnd\WebConfig.class
 com\portfolio\BackEnd\Entity\Educacion.class
+com\portfolio\BackEnd\Repository\IProyectosRepository.class
 com\portfolio\BackEnd\Entity\Habilidades.class
+com\portfolio\BackEnd\Dto\DtoProyectos.class
 com\portfolio\BackEnd\Entity\DatosWeb.class
 com\portfolio\BackEnd\Entity\Persona.class
 com\portfolio\BackEnd\Security\Service\UserDetailsImpl.class

@@ -6,18 +6,18 @@ import java.util.Optional;
 
 public interface IProyectosService {
     
-    public List<Proyectos> getPro();
+    public List<Proyectos> getProyectos();
     
-    public Optional<Proyectos> getOnePro(int id);
+    public Optional<Proyectos> getOneProyecto(int id);
     
-    public Optional<Proyectos> getByNombrePro(String nombrePro);
+    public Optional<Proyectos> getByNombreProyecto(String nombreProyecto);
     
-    public void savePro(Proyectos pro);
+    public void saveProyecto(Proyectos proyecto);
     
-    public void deletePro(int id);
+    public void deleteProyecto(int id);
     
     public boolean existsById(int id);
     
-    public boolean existsByNombrePro(String nombrePro);
+    public boolean existsByNombreProyecto(String nombreProyecto);
     
 }

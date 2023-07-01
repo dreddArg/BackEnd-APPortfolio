@@ -17,27 +17,27 @@ public class ImpProyectosService implements IProyectosService {
     public IProyectosRepository iProyectosRepository;
     
     @Override
-    public List<Proyectos> getPro() {
+    public List<Proyectos> getProyectos() {
         return iProyectosRepository.findAll();
     }
 
     @Override
-    public Optional<Proyectos> getOnePro(int id) {
+    public Optional<Proyectos> getOneProyecto(int id) {
         return iProyectosRepository.findById(id);
     }
 
     @Override
-    public Optional<Proyectos> getByNombrePro(String nombrePro) {
-        return iProyectosRepository.findByNombrePro(nombrePro);
+    public Optional<Proyectos> getByNombreProyecto(String nombreProyecto) {
+        return iProyectosRepository.findByNombreProyecto(nombreProyecto);
     }
 
     @Override
-    public void savePro(Proyectos pro) {
-        iProyectosRepository.save(pro);
+    public void saveProyecto(Proyectos proyecto) {
+        iProyectosRepository.save(proyecto);
     }
 
     @Override
-    public void deletePro(int id) {
+    public void deleteProyecto(int id) {
         iProyectosRepository.deleteById(id);
     }
 
@@ -47,8 +47,8 @@ public class ImpProyectosService implements IProyectosService {
     }
 
     @Override
-    public boolean existsByNombrePro(String nombrePro) {
-        return iProyectosRepository.existsByNombrePro(nombrePro);
+    public boolean existsByNombreProyecto(String nombreProyecto) {
+        return iProyectosRepository.existsByNombreProyecto(nombreProyecto);
     }
     
 }

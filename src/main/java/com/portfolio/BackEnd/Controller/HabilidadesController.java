@@ -59,7 +59,7 @@ public class HabilidadesController {
         // check si la habilidad se repite en otro ID
         if (iHabilidadesService.existsByNombreHab(dtoHab.getNombreHab()) &&
                 iHabilidadesService.getByNombreHab(dtoHab.getNombreHab()).get().getId() != id){
-            return new ResponseEntity(new Mensaje("Esa habilidad existe en otro registro"), HttpStatus.OK);
+            return new ResponseEntity(new Mensaje("Esa habilidad existe en otro registro"), HttpStatus.BAD_REQUEST);
         }
         // revisamos que no este en blanco el nombre
         if (StringUtils.isBlank(dtoHab.getNombreHab())){
@@ -75,7 +75,7 @@ public class HabilidadesController {
         return new ResponseEntity(new Mensaje("Habilidad Registrada"), HttpStatus.OK);
     }
 
-    @DeleteMapping("delete/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> deleteHabilidades(@PathVariable("id") int id){
         // Validamos si existe el Id pasado
         if (!iHabilidadesService.existsById(id)){
