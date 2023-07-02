@@ -2,6 +2,7 @@ com\portfolio\BackEnd\Entity\Experiencia.class
 com\portfolio\BackEnd\Interface\IDatosWebService.class
 com\portfolio\BackEnd\Service\ImpPersonasService.class
 com\portfolio\BackEnd\Repository\IExperienciaRepository.class
+com\portfolio\BackEnd\BackEndApplication$1.class
 com\portfolio\BackEnd\BackEndApplication.class
 com\portfolio\BackEnd\Entity\RedesSociales.class
 com\portfolio\BackEnd\Controller\HabilidadesController.class
@@ -48,7 +49,6 @@ com\portfolio\BackEnd\Security\Repository\IUsuarioRepository.class
 com\portfolio\BackEnd\Interface\IEducacionService.class
 com\portfolio\BackEnd\Controller\ProyectosController.class
 com\portfolio\BackEnd\Security\Service\UsuarioService.class
-com\portfolio\BackEnd\WebConfig.class
 com\portfolio\BackEnd\Entity\Educacion.class
 com\portfolio\BackEnd\Repository\IProyectosRepository.class
 com\portfolio\BackEnd\Entity\Habilidades.class
